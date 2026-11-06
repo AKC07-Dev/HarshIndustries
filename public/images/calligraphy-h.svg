@@ -1,0 +1,46 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="calligHGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#E39478" />
+      <stop offset="35%" stopColor="#B86D4A" />
+      <stop offset="70%" stopColor="#2679C9" />
+      <stop offset="100%" stopColor="#173B5E" />
+    </linearGradient>
+    <linearGradient id="copperFlame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFAB87" />
+      <stop offset="50%" stopColor="#B86D4A" />
+      <stop offset="100%" stopColor="#8C4325" />
+    </linearGradient>
+    <filter id="glowH" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#B86D4A" floodOpacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Industrial Outer Hex/Pill Shield subtle background -->
+  <rect x="6" y="6" width="108" height="108" rx="26" fill="#101C2C" stroke="url(#calligHGrad)" stroke-width="2.5" />
+  
+  <!-- Bold Large Italic Calligraphy H -->
+  <!-- Left Ascender / Stem with dynamic italic curve and chisel terminals -->
+  <path 
+    d="M 38 22 C 48 18, 56 22, 54 32 L 42 74 C 40 82, 34 94, 20 92 C 14 91, 16 83, 22 81 C 30 78, 34 72, 36 64 L 46 32 C 47 26, 42 24, 34 25 C 28 26, 26 23, 38 22 Z" 
+    fill="url(#copperFlame)" 
+    filter="url(#glowH)"
+  />
+
+  <!-- Dynamic Calligraphic Crossbar with electric lightning flourish -->
+  <path 
+    d="M 39 53 C 48 46, 60 48, 72 52 L 70 59 C 58 55, 48 54, 37 60 Z" 
+    fill="#FFFFFF" 
+    opacity="0.9"
+  />
+
+  <!-- Right Stem with sweeping italic curve and broad-nib calligraphic weight -->
+  <path 
+    d="M 72 26 C 84 18, 96 22, 94 34 L 81 72 C 79 78, 83 82, 92 80 C 98 79, 102 74, 103 71 C 102 76, 96 88, 84 90 C 72 92, 69 82, 71 74 L 82 36 C 84 28, 78 26, 70 28 C 64 29, 64 27, 72 26 Z" 
+    fill="url(#copperFlame)" 
+    filter="url(#glowH)"
+  />
+
+  <!-- Subtle lightning spark dot / accent -->
+  <circle cx="86" cy="20" r="3" fill="#49A2F6" />
+</svg>
